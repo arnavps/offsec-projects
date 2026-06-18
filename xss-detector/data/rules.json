@@ -1,0 +1,25 @@
+{
+    "rules": [
+        {
+            "id": 1001,
+            "name": "Basic Script Tag",
+            "regex": "(?i)<script[^>]*>[\\s\\S]*?<\\/script>",
+            "risk_score": 100,
+            "description": "Matches direct <script> tag injections."
+        },
+        {
+            "id": 1002,
+            "name": "Event Handler Injection",
+            "regex": "(?i)on\\w+\\s*=\\s*['\"]?[^>]+['\"]?",
+            "risk_score": 80,
+            "description": "Matches inline JavaScript event handlers (e.g., onerror=alert(1))."
+        },
+        {
+            "id": 1003,
+            "name": "JavaScript URI Scheme",
+            "regex": "(?i)javascript\\s*:",
+            "risk_score": 90,
+            "description": "Matches javascript: pseudo-protocol."
+        }
+    ]
+}
