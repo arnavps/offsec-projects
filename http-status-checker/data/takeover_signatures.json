@@ -1,0 +1,112 @@
+[
+  {
+    "service": "GitHub Pages",
+    "cname": ["github.io", "github.map.fastly.net"],
+    "fingerprints": [
+      "There isn't a GitHub Pages site here.",
+      "For root domains (e.g. example.com) you must first associate the domain"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Heroku",
+    "cname": ["herokuapp.com", "herokudns.com", "herokucdn.com"],
+    "fingerprints": [
+      "herokucdn.com/error-pages/no-such-app.html",
+      "no-such-app.html",
+      "No such app",
+      "package-configured-successfully"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "AWS S3",
+    "cname": ["amazonaws.com", "s3.amazonaws.com"],
+    "fingerprints": [
+      "The specified bucket does not exist",
+      "NoSuchBucket",
+      "AccessDenied"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Shopify",
+    "cname": ["myshopify.com"],
+    "fingerprints": [
+      "Sorry, this shop is currently unavailable",
+      "Only one step left to start selling",
+      "Only one step left to start selling with Shopify"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Tumblr",
+    "cname": ["tumblr.com"],
+    "fingerprints": [
+      "Whatever you were looking for is not here.",
+      "There's nothing here."
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Surge",
+    "cname": ["surge.sh"],
+    "fingerprints": [
+      "project not found",
+      "project-not-found"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Pantheon",
+    "cname": ["pantheonsite.io"],
+    "fingerprints": [
+      "The Pantheon Site you are looking for does not exist",
+      "404 error: Pantheon Site Not Found"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "ReadTheDocs",
+    "cname": ["readthedocs.io", "readthedocs.org"],
+    "fingerprints": [
+      "is not hosting content for this domain",
+      "RTD | Page Not Found"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Fastly",
+    "cname": ["fastly.net"],
+    "fingerprints": [
+      "Fastly error: unknown domain"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Cargo Collective",
+    "cname": ["cargocollective.com"],
+    "fingerprints": [
+      "If you're the creator of this site, please check your domain settings"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Ghost",
+    "cname": ["ghost.io"],
+    "fingerprints": [
+      "The page you are looking for has gone missing.",
+      "site-not-found"
+    ],
+    "status": "404"
+  },
+  {
+    "service": "Fly.io",
+    "cname": ["fly.dev"],
+    "fingerprints": [
+      "404 App Not Found",
+      "App not found"
+    ],
+    "status": "404"
+  }
+]

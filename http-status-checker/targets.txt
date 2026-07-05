@@ -1,0 +1,6 @@
+google.com
+github.com
+microsoft.com
+example.com
+nonexistent-dns-test-domain-xyz.co
+http://google.com
