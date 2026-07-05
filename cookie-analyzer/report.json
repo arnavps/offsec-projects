@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "tool": "Cookie Sentinel",
+        "timestamp": "2026-06-18T18:15:13.845350",
+        "total_cookies": 1,
+        "total_issues": 2
+    },
+    "cookies": [
+        {
+            "name": "session",
+            "value": "******",
+            "attributes": {
+                "httponly": false,
+                "secure": true,
+                "samesite": "Lax",
+                "domain": ".example.com",
+                "path": "/",
+                "expires": null,
+                "max_age": null
+            },
+            "raw_header": "session=xyz123; Domain=.example.com; Path=/; Secure; SameSite=Lax",
+            "url": null
+        }
+    ],
+    "findings": {
+        "session": [
+            {
+                "cookie_name": "session",
+                "rule_id": "MISSING_HTTPONLY",
+                "severity": "High",
+                "description": "Cookie appears to be a session identifier but lacks the 'HttpOnly' flag.",
+                "remediation": "Configure the 'Set-Cookie' header to include the 'HttpOnly' attribute. This prevents client-side scripts (e.g. XSS) from reading the session cookie.",
+                "details": null
+            },
+            {
+                "cookie_name": "session",
+                "rule_id": "OVERLY_BROAD_DOMAIN_DOT",
+                "severity": "Medium",
+                "description": "Cookie domain '.example.com' starts with a leading dot, making it accessible to all subdomains.",
+                "remediation": "Omit the 'Domain' attribute completely to lock the cookie to the host that set it, or specify the exact hostname without a leading dot.",
+                "details": null
+            }
+        ]
+    }
+}
