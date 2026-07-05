@@ -1,0 +1,26 @@
+{
+    "metadata": {
+        "timestamp": 1781348601,
+        "target_dir": "C:\\Users\\Arnav Shirwadkar\\Desktop\\OSC\\projects\\file-integrity-checker\\src",
+        "algorithm": "sha256",
+        "file_count": 16
+    },
+    "hashes": {
+        "cli.py": "24aa9d24475a46968b6aff120c8b5e38d8b42b1020d64425738d8116c3699208",
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "core/baseline.py": "db2826d2617a501588ceda240403364ef9575e2d7675ed1786b4fb6ba761a6a5",
+        "core/hasher.py": "7860605985792b6c7a22242e63cb2c898b08e5002e54e204eeed645f4f8b4ba6",
+        "core/verifier.py": "7a7b4577356e051800621675f68a4e52a85e083503cbfae31bd5556dea09e346",
+        "core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "core/__pycache__/baseline.cpython-313.pyc": "97f5532d76ded684d1f353c0c59fb91cccca7a38b52ada5e7f288b9c6cc3e9a5",
+        "core/__pycache__/hasher.cpython-313.pyc": "14ae1b91aa0b35fca4538eb29b62effc8f5fac74fe614c57ce884dac9a72c539",
+        "core/__pycache__/verifier.cpython-313.pyc": "6b55ebe772930b3d405a1b81fd2f90fc7cc84407641420244054e352e2a59116",
+        "core/__pycache__/__init__.cpython-313.pyc": "567b4abeff2f3d5ff918fc916f42477e66b71b98f2e0ed8e2f64553adaf31692",
+        "utils/logger.py": "50ca7add122d9268615b49c9c7fcf65338a08f6791342c1bb0811ee47a8c75c2",
+        "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "utils/__pycache__/logger.cpython-313.pyc": "612f6b1833f63703d5a82a7ccb5510cea347bb659bec572ea6fceb5e9e57987b",
+        "utils/__pycache__/__init__.cpython-313.pyc": "1e126b926ac37b90518a3dc1ec47148ace2d1663d55c1479f18ddde194dca0a1",
+        "__pycache__/cli.cpython-313.pyc": "f14413026b2701bb2ed03dbafba739b6e0affb5157aed5b60c29846671b9179f",
+        "__pycache__/__init__.cpython-313.pyc": "31a57708457551e853931e9326ab24adf8c1e7185a73f802470610c378538b16"
+    }
+}
